@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Declaração de Amor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f1f1f1;
+            opacity: 0.7;
+        }
+
+        #love {
+            font-size: 24px;
+            padding: 10px 20px;
+            border: none;
+            background-color: #FF5733;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Declaração de Amor</h1>
+    <p>Descubra a quantos dias eu te amo!</p>
+    <button id="love">Descubra!</button>
+
+    <script>
+        document.getElementById('love').addEventListener('click', function() {
+            var vezes = 976;
+            var frase = "TE AMO";
+
+            for (var i = 0; i < vezes; i++) {
+                document.write(frase + "<br>");
+            }
+        });
+    </script>
+</body>
+</html>
